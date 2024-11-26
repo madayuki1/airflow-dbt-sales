@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+    - name: jaffle_shop_staging
+      database: jaffle_shop
+      schema: jaffle_shop_staging
+      tables:
+        - name: stg_customers
+        - name: stg_orders
+        - name: stg_products
+        - name: stg_items
+        - name: stg_stores
+        - name: stg_supplies
